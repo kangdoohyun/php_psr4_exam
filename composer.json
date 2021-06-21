@@ -1,0 +1,22 @@
+{
+    "name": "kangdoohyun/php_composer_exam",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "src/Util.php"
+        ],
+        "psr-4": {
+            "App\\": "src/app"
+        }
+    },
+    "authors": [
+        {
+            "name": "kangdoohyun",
+            "email": "rkdengus1208@gmail.com"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "^2.9"
+    }
+}
